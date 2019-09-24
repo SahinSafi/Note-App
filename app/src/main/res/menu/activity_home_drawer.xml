@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_person"
+            android:id="@+id/developerID"
+            android:title="Developer details" />
+        <item
+            android:icon="@drawable/ic_power"
+            android:id="@+id/signOutID"
+            android:title="LogOut" />
+
+    </group>
+
+
+</menu>

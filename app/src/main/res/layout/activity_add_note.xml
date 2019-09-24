@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#202C57">
+    <LinearLayout
+        android:id="@+id/linearLayOutID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6759FF"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_assignment_black_24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type your daily task"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/motivational_text"
+            android:textColor="#fff"
+            />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/titleEditTextID"
+        android:layout_below="@id/linearLayOutID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6759FF"
+        android:hint="Title..."
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textColorHint="#99FFFFFF"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/detailsEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleEditTextID"
+        android:hint="Type details..."
+        android:textColorHint="#99FFFFFF"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:background="#202C57"
+        android:padding="20dp"/>
+    <androidx.cardview.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/saveButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Save"
+                android:textSize="20sp"
+                android:background="#8B39FD"
+                android:textColor="#fff"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

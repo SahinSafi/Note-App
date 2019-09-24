@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Task Note</string>
+    <string name="login_details">If you do not have any account, you can register your account. Please click on SignUp</string>
+    <string name="signUp_details">Please enter your email and password then click on register button. Thank you.</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Task Note</string>
+    <string name="nav_header_subtitle">Thank you for using</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="motivational_text2">-Press forward. Do not stop, do not linger in your journey, but strive for the mark set before you.</string>
+    <string name="motivational_text">-Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</string>
+    <string name="title_activity_home2">Home2Activity</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+</resources>

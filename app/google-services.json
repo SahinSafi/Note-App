@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "621061536361",
+    "firebase_url": "https://tasknote-1edd4.firebaseio.com",
+    "project_id": "tasknote-1edd4",
+    "storage_bucket": "tasknote-1edd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621061536361:android:898a445db967852dd640f8",
+        "android_client_info": {
+          "package_name": "com.cyberwith.tasknote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621061536361-bigmo9c2ak0eubcbuf16vcdhuen2obpt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cyberwith.tasknote",
+            "certificate_hash": "9d10789d8604806ddff133ac9de0d241387fea3e"
+          }
+        },
+        {
+          "client_id": "621061536361-j0gefust1meau9dn8vic6csjii314n2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbhmREQpHNDeo01bfP-cgf8vKwzFXoq3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621061536361-j0gefust1meau9dn8vic6csjii314n2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
